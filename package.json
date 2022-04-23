@@ -1,0 +1,46 @@
+{
+  "name": "roller-cli",
+  "version": "1.0.0",
+  "description": "For EVE Online : A simple cli to help lazy wormholers to roll holes 🕳",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "tsc -w",
+    "test": "jest",
+    "build": "rm -rf ./dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raph5/roller-cli.git"
+  },
+  "keywords": [
+    "eve",
+    "eve online",
+    "cli",
+    "wormhole",
+    "collapse",
+    "collapsing",
+    "rolling",
+    "calculator"
+  ],
+  "author": "raph_5#0989 | Raph Toulouse [BAG8]",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raph5/roller-cli/issues"
+  },
+  "homepage": "https://github.com/raph5/roller-cli#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0",
+    "jest": "^27.4.7",
+    "vorpal": "git+https://github.com/raph5/vorpal.git"
+  },
+  "imports": {
+    "lib@": "./lib/*"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "ts-jest": "^27.1.3",
+    "typescript": "^3.3.3"
+  }
+}
